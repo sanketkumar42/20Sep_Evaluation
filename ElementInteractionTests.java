@@ -45,10 +45,10 @@ public class ElementInteractionTests {
 	        String outputCurrentAddress = driver.findElement(By.xpath("//p[@id='currentAddress']")).getText();
 	        String outputPermanentAddress = driver.findElement(By.xpath("//p[@id='permanentAddress']")).getText();
 
-	        Assert.assertTrue(outputName.contains("John Doe"), "Name not matching!");
-	        Assert.assertTrue(outputEmail.contains("johndoe@test.com"), "Email not matching!");
-	        Assert.assertTrue(outputCurrentAddress.contains("123 Main Street"), "Current Address not matching!");
-	        Assert.assertTrue(outputPermanentAddress.contains("456 Elm Street"), "Permanent Address not matching!");
+	        Assert.assertTrue(outputName.contains("Sanket kumar"), "Name not matching!");
+	        Assert.assertTrue(outputEmail.contains("Sanket123@gmail.com"), "Email not matching!");
+	        Assert.assertTrue(outputCurrentAddress.contains("MQ-97 bokaro"), "Current Address not matching!");
+	        Assert.assertTrue(outputPermanentAddress.contains("420 bihar"), "Permanent Address not matching!");
 	    }
 	
 		@Test(priority = 2)
@@ -63,3 +63,4 @@ public class ElementInteractionTests {
 		}
 	    
 }
+
